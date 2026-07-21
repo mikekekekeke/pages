@@ -25,12 +25,6 @@ export const metadata: Metadata = {
   description:
     "FRIP helps startups and businesses transform ideas into production-ready software through engineering leadership, backend development, cloud architecture and dedicated engineering teams.",
 
-  openGraph: {
-      title: "FRIP | Boutique Engineering Consultancy",
-      description: "Boutique engineering consultancy for startups and growing businesses.",
-      images: ["/og-image.png"],
-    },
-
   keywords: [
     "Engineering Leadership",
     "Software Engineering Manager",
@@ -83,8 +77,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "FRIP — From Idea to Production",
-    description:
-      "Engineering leadership and production-ready software.",
+    description: "Engineering leadership and production-ready software.",
     images: ["/og-image.png"],
   },
 
