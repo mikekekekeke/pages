@@ -28,7 +28,7 @@ export default function MeetFrip() {
               By assembling experienced specialists around each engagement, we stay lean, flexible and focused on delivering value where it matters most.
             </p>
 
-            <p>
+            {/*<p>
               Founded by{" "}
               <span className="font-semibold text-white">
                 Michail Ostryj
@@ -37,7 +37,7 @@ export default function MeetFrip() {
               experience building distributed systems and leading engineering
               teams, FRIP is built on pragmatic engineering, long-term thinking
               and a commitment to delivering production-ready software.
-            </p>
+            </p>*/}
           </div>
 
           <Link
