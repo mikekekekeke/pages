@@ -17,9 +17,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  defaults:
-    run:
-      working-directory: engineering-website
+    defaults:
+      run:
+        working-directory: engineering-website
     
     steps:
       - uses: actions/checkout@v4
