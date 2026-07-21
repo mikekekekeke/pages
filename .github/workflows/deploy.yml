@@ -20,11 +20,15 @@ jobs:
     defaults:
       run:
         working-directory: engineering-website
-    
+
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: engineering-website/package-lock.json
         with:
           node-version: 22
           cache: npm
